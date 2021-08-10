@@ -73,11 +73,27 @@
 	margin: auto;
 }
 
-.navigationbar{
-	margin: 20px 0px auto;
+.stickyHeader {
+	width: 80%;
+	margin: auto;
 	display: flex;
 	align-items: center;
 }
+
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 150px;
+	padding-right: 150px;
+	height: 110px;
+	z-index: 9999;
+	background-color: #247852;
+  }
 
 ul{
 	flex: 1;
@@ -99,15 +115,19 @@ ul li a{
 	position: relative;
 }
 
+ul li.active a {
+	color: #519c41;
+}
+
 ul li a::after{
 	content: '';
 	width: 0;
-	height: 10px;
+	height: 5px;
 	background: #519c41;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	bottom: -12px;
+	bottom: -8px;
 	transition: 0.5s;
 }
 
