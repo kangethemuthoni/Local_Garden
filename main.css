@@ -66,7 +66,7 @@
 
 /* end -- Topbar */
 
-/* start -- Home Section One */
+/* start -- homesectionone */
 
 #homesectionone{
 	width: 100%;
@@ -258,10 +258,10 @@ ul li a:hover::after{
 
 /* end -- loyalty card registration */
 
-/* end -- Home Section One */
+/* end -- homesectionone */
 
 
-/* start -- Home Section Two */
+/* start -- homesectiontwo */
 
 #homesectiontwo{
 	width: 100%;
@@ -322,71 +322,131 @@ ul li a:hover::after{
 	margin-left: 0px;
 }
 
-/* end -- Home Section Two */
+/* end -- homesectiontwo */
 
-/* start -- Home Section Three */
+/* start -- homesectionthree */
 
 #homesectionthree{
-	margin-bottom: 50px;
-	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	height: 500px;
+	margin: 50px 0px 70px 0px;
 }
 
-#homesectionthree .row {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin: 0px 10px 0px 0px;
-  }
+.headingsec{
+	margin-bottom: 20px;
+}
 
-#homesectionthree h1{
+.headingsec h4{
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	padding: 20px;
-	font-size: 27px;
-	font-weight: bold;
-	color: #333333;
-	margin: 10px 0px 20px 0px;
-}
-
-.primary-view {
-	padding: 7px 30px;
-	margin-bottom: 5px;
-	outline: none;
-	border: 1px solid #519c41;
-	border-radius: 5px;
-	cursor: pointer;
+	font-size: 18px;
 	color: #519c41;
-	background: transparent;
+}
+
+.headingsec h1{
+	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
-	background: linear-gradient(#519c41, #4a8a3d);
-	box-shadow: 0 2px 2px rgba(51, 153, 51);
-	color: #fff;
+	font-size: 30px;
+	color: #333333;
+	font-weight: bold;
 }
 
-.primary-view:hover {
-	background-color: #427e35;
-	color: #ffffff;
+.myhome {
+	height: 430px;
+	text-align: center;
 }
 
-#homesectionthree .card-title {
+.homeone, .homethree{
+	float: left;
+	width: 25%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.hometwo{
+	float: left;
+	width: 38%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.home1{
+      position: relative;
+      top: 0;
+      left: 0;
+      width: contain;
+      padding-top: 5px;
+    }
+
+.home2{
+      position: absolute;
+      top: 142px;
+      left: 185px;
+    }
+
+.homeone{
+	margin-left: 50px;
+	margin-right: 30px;
+}
+
+.hometwo{
+	margin-left: 0px;
+	margin-right: 30px;
+}
+
+.homethree{
+	margin-left: 0px;
+	margin-right: 50px;
+}
+
+.homeminione, .homeminitwo, .homeminithree{
+	margin: 70px 0px 70px 10px;
+}
+
+.homeminione h1, .homeminitwo h1, .homeminithree h1{
+	text-align: left;
 	font-family: 'Roboto', sans-serif;
-	font-size: 17px;
-	font-weight: bolder;
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
 }
 
-#homesectionthree .card-text {
+.homeminione p, .homeminitwo p, .homeminithree p{
+	text-align: left;
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	font-weight: bolder;
+	color: #737373;
 }
 
+.homeminifour{
+	margin: 70px 0px;
+}
 
-/* end -- Home Section Three */
+.homeminifive{
+	margin: 55px 0px;
+}
+
+.homeminisix{
+	margin: 0px 0px;
+}
+
+.homeminifour h1, .homeminifive h1, .homeminisix h1{
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+
+.homeminifour p, .homeminifive p, .homeminisix p{
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	color: #737373;
+}
+
+/* end -- homesectionthree */
 
 
-/* start -- Home Section Four */
+/* start -- homesectionfour */
 
 #homesectionfour{
 	width: 100%;
@@ -443,58 +503,75 @@ ul li a:hover::after{
 }
 
 
-/* end -- Home Section Four */
+/* end -- homesectionfour */
 
-/* start -- Home Section Five */
+/* start -- homesectionfive */
 
-#homesectionfive{
+#homesectionfive {
 	width: 100%;
+	height: 350px;
 	margin: 20px 0px 30px 0px;
-	height: 210px;
-	padding: 20px 20px;
-	text-align: center;
-	vertical-align: middle;
+	padding: 20px;
 }
 
-#homesectionfive h1 {
+.mypay {
+	height: 200px;
+	text-align: center;
+}
+
+#homesectionfive h2{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 25px;
 	font-family: 'Roboto', sans-serif;
-	font-size: 21px;
-	margin: 10px 0px 12px 0px;
 	color: #333333;
 	font-weight: bolder;
 }
 
-#homesectionfive p {
+#homesectionfive h1{
+	margin-top: 28px;
+	text-align: center;
+	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	margin: 0px 0px 40px 0px;
-	color: #4d4d4d;
-	font-weight: bold;
+	color: #333333;
+	font-weight: bolder;
 }
 
-.form-field-input {
+#homesectionfive p{
+	margin-top: 5px;
+	text-align: center;
+	font-size: 18px;
 	font-family: 'Roboto', sans-serif;
-	width: 300px;
-	padding: 7px 20px;
-    letter-spacing: 0;
-	margin-right: 10px;
-	border-radius: 5px;
-	border: 2px solid #737373;
+	color: #737373;
+	font-weight: normal;
 }
 
-.newsletter .button-sub {
-	font-family: 'Roboto', sans-serif;
-	padding: 7px 20px;
-    letter-spacing: 0;
-	color: #ffffff;
-    background-color: #519c41;
-    border: 1px solid #519c41;
-	border-radius: 5px;
+.payone, .paytwo, .paythree{
+	float: left;
+	width: 28%;
+	margin-bottom: 20px;
+	margin-top: 40px;
+	border-radius: 8px;
+	background-color: #f2f2f2;
 }
 
+.payone{
+	margin-right: 30px;
+	margin-left: 70px;
+}
 
+.paytwo{
+	margin-right: 30px;
+	margin-left: 0px;
+}
 
-/* end -- Home Section Five */
+.paythree{
+	margin-right: 50px;
+	margin-left: 0px;
+}
+
+/* end -- homesectionfive */
 
 /* end -- home */
 
@@ -635,121 +712,40 @@ ul li a:hover::after{
 
 /* start -- aboutsectionthree */
 
-#aboutsectionthree{
+#aboutsectionthree {
 	width: 100%;
-	height: 500px;
-	margin: 50px 0px 70px 0px;
-}
-
-.headingsec{
-	margin-bottom: 20px;
-}
-
-.headingsec h4{
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	color: #519c41;
-}
-
-.headingsec h1{
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	font-size: 30px;
-	color: #333333;
-	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	height: 320px;
 }
 
 .myabt {
-	height: 430px;
+	background-color: #ffffff;
+	width: 25%;
+	height: 200px;
 	text-align: center;
 }
 
-.abtone, .abtthree{
-	float: left;
-	width: 25%;
-	margin-bottom: 20px;
-	margin-top: 20px;
+.abtone, .abttwo, .abtthree {
+	margin: 60px 20px;
+	background-color: #f2f2f2;
+	border-radius: 8px;
 }
 
-.abttwo{
-	float: left;
-	width: 38%;
-	margin-bottom: 20px;
-	margin-top: 20px;
-}
-
-.about1{
-      position: relative;
-      top: 0;
-      left: 0;
-      width: contain;
-      padding-top: 5px;
-    }
-
-.about2{
-      position: absolute;
-      top: 142px;
-      left: 185px;
-    }
-
-.abtone{
-	margin-left: 50px;
-	margin-right: 30px;
-}
-
-.abttwo{
-	margin-left: 0px;
-	margin-right: 30px;
-}
-
-.abtthree{
-	margin-left: 0px;
-	margin-right: 50px;
-}
-
-.abtminione, .abtminitwo, .abtminithree{
-	margin: 70px 0px 70px 10px;
-}
-
-.abtminione h1, .abtminitwo h1, .abtminithree h1{
-	text-align: left;
+.myabt h1 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
 	color: #333333;
-	font-weight: bold;
+	font-size: 18px;
+	margin-top: 40px;
+	font-weight: bolder;
 }
 
-.abtminione p, .abtminitwo p, .abtminithree p{
-	text-align: left;
+.myabt h4 {
 	font-family: 'Roboto', sans-serif;
 	color: #737373;
-}
-
-.abtminifour{
-	margin: 70px 0px;
-}
-
-.abtminifive{
-	margin: 55px 0px;
-}
-
-.abtminisix{
-	margin: 0px 0px;
-}
-
-.abtminifour h1, .abtminifive h1, .abtminisix h1{
-	text-align: left;
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	color: #333333;
-	font-weight: bold;
-}
-
-.abtminifour p, .abtminifive p, .abtminisix p{
-	text-align: left;
-	font-family: 'Roboto', sans-serif;
-	color: #737373;
+	font-size: 17px;
+	margin-top: 5px;
+	padding: 0px 5px;
 }
 
 /* end -- aboutsectionthree */
@@ -965,73 +961,52 @@ ul li a:hover::after{
 
 /* end -- aboutsectionsix */
 
-
 /* start -- aboutsectionseven */
 
-#aboutsectionseven {
+#aboutsectionseven{
 	width: 100%;
-	height: 350px;
-	margin: 0px 0px 30px 0px;
-	padding: 20px;
+	margin: 20px 0px 30px 0px;
+	height: 210px;
+	padding: 20px 20px;
+	text-align: center;
+	vertical-align: middle;
 }
 
-.mypay {
-	height: 200px;
-	text-align: center;
-}
-
-#aboutsectionseven h2{
-	margin-top: 10px;
-	margin-bottom: 20px;
-	text-align: center;
-	font-size: 25px;
+#aboutsectionseven h1 {
 	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	margin: 10px 0px 12px 0px;
 	color: #333333;
 	font-weight: bolder;
 }
 
-#aboutsectionseven h1{
-	margin-top: 28px;
-	text-align: center;
-	font-size: 20px;
+#aboutsectionseven p {
 	font-family: 'Roboto', sans-serif;
-	color: #333333;
-	font-weight: bolder;
+	font-size: 14px;
+	margin: 0px 0px 40px 0px;
+	color: #4d4d4d;
+	font-weight: bold;
 }
 
-#aboutsectionseven p{
-	margin-top: 5px;
-	text-align: center;
-	font-size: 18px;
+.form-field-input {
 	font-family: 'Roboto', sans-serif;
-	color: #737373;
-	font-weight: normal;
+	width: 300px;
+	padding: 7px 20px;
+    letter-spacing: 0;
+	margin-right: 10px;
+	border-radius: 5px;
+	border: 2px solid #737373;
 }
 
-.payone, .paytwo, .paythree{
-	float: left;
-	width: 28%;
-	margin-bottom: 20px;
-	margin-top: 40px;
-	border-radius: 8px;
-	background-color: #f2f2f2;
+.newsletter .button-sub {
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 20px;
+    letter-spacing: 0;
+	color: #ffffff;
+    background-color: #519c41;
+    border: 1px solid #519c41;
+	border-radius: 5px;
 }
-
-.payone{
-	margin-right: 30px;
-	margin-left: 70px;
-}
-
-.paytwo{
-	margin-right: 30px;
-	margin-left: 0px;
-}
-
-.paythree{
-	margin-right: 50px;
-	margin-left: 0px;
-}
-
 
 /* end -- aboutsectionseven */
 
