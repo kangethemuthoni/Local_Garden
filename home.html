@@ -37,6 +37,8 @@
 
 	<!-- start - Top Bar -->
 
+	<script src = "cart.js" async></script>
+
 	<div id = "wrapper">
 
 		<div class = "left-align">
@@ -56,7 +58,7 @@
 		<div class = "right-align">
 
 			<span style="font-size: 17px; color: #333333; margin: 0px 25px 0px 15px; font-weight: normal;">
-				<a class="btncart" href="products.html#productsectionmid" style="text-decoration: none;">
+				<a class="btncart" onclick = "openCartMenu()" style="text-decoration: none;">
 					<i class="fas fa-shopping-cart"></i>
 					<span id = "cartspan">0</span>
 				</a>
@@ -73,6 +75,70 @@
 	</div>
 
 	<!-- end - Top Bar -->
+
+	<!-- start -- Cart Menu -->
+
+	<div id="mySidebar" class="sidebar">
+		<div class = "closebtn" onclick = "closeCartMenu()">×</div>
+
+		<section>
+
+		<h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column" style = "margin: 20px;">ITEM</span>
+            <span class="cart-price cart-header cart-column" style = "margin: 20px;">PRICE</span>
+            <span class="cart-quantity cart-header cart-column" style = "margin: 20px;">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+
+			<div class="cart-row">
+				<div class="cart-item cart-column">
+				<!-- <img class="cart-item-image" src="Images/Shirt.png" width="100" height="100"> -->
+					<span class="cart-item-title">T-Shirt</span>
+				</div>
+				<span class="cart-price cart-column">Kes 19.99</span>
+				<div class="cart-quantity cart-column">
+					<input class="cart-quantity-input" type="number" value="1">
+					<button class="btn btn-danger" type="button">x</button>
+				</div>
+          	</div>
+
+			<div class="cart-row">
+				<div class="cart-item cart-column">
+				<!-- <img class="cart-item-image" src="Images/Shirt.png" width="100" height="100"> -->
+					<span class="cart-item-title">Scarf</span>
+				</div>
+				<span class="cart-price cart-column">Kes 52.99</span>
+				<div class="cart-quantity cart-column">
+					<input class="cart-quantity-input" type="number" value="1">
+					<button class="btn btn-danger" type="button">x</button>
+				</div>
+          	</div>
+
+			<div class="cart-row">
+				<div class="cart-item cart-column">
+				<!-- <img class="cart-item-image" src="Images/Shirt.png" width="100" height="100"> -->
+					<span class="cart-item-title">Trouser</span>
+				</div>
+				<span class="cart-price cart-column">Kes 203.99</span>
+				<div class="cart-quantity cart-column">
+					<input class="cart-quantity-input" type="number" value="1">
+					<button class="btn btn-danger" type="button">x</button>
+				</div>
+          	</div>
+
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total:</strong>
+            <span class="cart-total-price">Kes 0</span>
+        </div>
+        <button class="btn btn-cartadd btn-purchase" type="button">Go To CheckOut</button>
+
+		</section>
+
+	</div>
+
+	<!-- end -- Cart Menu -->
 
 	<!-- start - Navigation Bar -->
 
@@ -114,8 +180,8 @@
 			</h3>
 
 			<div class="special">
-				<button type="button" class="primary-special" onclick="document.location='about_us.html#introduction'">Learn More</button>
-				<button type="button" onclick="document.location='#homesectionthree'">Special Offers</button>
+				<button type="button" class="primary-special" onclick="document.location='about_us.html#aboutsectionone'">Learn More</button>
+				<button type="button" onclick="document.location='#'">Special Offers</button>
 			</div>
 
 			<!-- start -- loyalty card registration 
