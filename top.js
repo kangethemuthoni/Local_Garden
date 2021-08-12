@@ -58,7 +58,7 @@ function topFunction () {
 function fixedHeader () {
 
 	if (window.pageYOffset > sticky) {
-		stickyHeader.classList.add("sticky");
+		stickyHeader.classList.add ("sticky");
 		imageHeader.style.width = "120px";
 		menuText1.style.color = "#ffffff";
 		menuText2.style.color = "#ffffff";
@@ -66,7 +66,7 @@ function fixedHeader () {
 		activeStickyTab();
 
 	} else {
-		stickyHeader.classList.remove("sticky");
+		stickyHeader.classList.remove ("sticky");
 		imageHeader.style.width = "15%";
 		menuText1.style.color = "#333333";
 		menuText2.style.color = "#333333";

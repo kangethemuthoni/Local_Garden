@@ -12,7 +12,7 @@ function closeCartMenu () {
 
 - Price (Get total price) - price * quantity
 - Update cart total
-- Add items to cart - Add Cart Rows - Item, Price, Quantity, Remove
+- Add items to cart - Add Cart Rows - Item, Price, Quantity
 - Remove items from cart 
 - Go to checkout button (OnClick button to Checkout page)
 
