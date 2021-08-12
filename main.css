@@ -1193,7 +1193,7 @@ ul li a:hover::after{
     border: none;
 }
 
-.cart-item { /* The text that appears once you add to cart */
+.cart-item { /* The text that appears once you add an item to the cart */
     width: 30%;
 	margin: 0px 10px;
 }
