@@ -37,6 +37,8 @@
 
 	<!-- start - Top Bar -->
 
+    <script src = "cart.js" async></script>
+
 	<div id = "wrapper">
 
 		<div class = "left-align">
@@ -73,6 +75,37 @@
 	</div>
 
 	<!-- end - Top Bar -->
+
+    <!-- start -- Cart Menu -->
+
+	<div id="mySidebar" class="sidebar">
+		<div class = "closebtn" onclick = "closeCartMenu()">×</div>
+
+		<section>
+
+		<h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column" style = "margin: 20px;">ITEM</span>
+            <span class="cart-price cart-header cart-column" style = "margin: 20px;">PRICE</span>
+            <span class="cart-quantity cart-header cart-column" style = "margin: 20px;">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+
+			
+
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total:</strong>
+            <span class="cart-total-price">Kes 0</span>
+        </div>
+        <button class="btn btn-cartadd btn-purchase" type="button" 
+		onclick="document.location='checkout.html'">Go To CheckOut</button>
+
+		</section>
+
+	</div>
+
+	<!-- end -- Cart Menu -->
 
     <!-- start - Navigation Bar -->
 
