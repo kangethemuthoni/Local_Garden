@@ -364,12 +364,42 @@
 			<form id = "test-form">
 			
 			  <input class="form-field-input form-field-text" name="email" id="email" 
-			  type="email" aria-label="Email address" placeholder="Email Address" required>
+			  type="email" aria-label="Email address" placeholder="Email Address">
 	
-			  <button class="button-sub" name="subscribe" type="submit">
-				Sign up
+			  <button id = "subscription" class="button-sub" name="subscribe" type = "button">
+				  Sign Up
 			  </button>
+			  
 			</form>
+
+			<p id = "emailInput"></p>
+
+			<script>
+
+				// Newsletter Button
+
+				var subscribeButton = document.getElementById("subscription");
+
+				subscribeButton.addEventListener("click", subscribed);
+
+				function subscribed () {
+
+					var emails = document.getElementById("email").value;
+
+					if (emails == "") {
+
+						document.getElementById("emailInput").innerText = "Please enter your email";
+
+					} else {
+
+						document.getElementById("email").value = "";
+						document.getElementById("emailInput").innerText = "Thank you! You have successfully subscribed to our Newsletter.";
+
+					}
+
+				}
+
+			</script>
 			
 		</div>
 		
